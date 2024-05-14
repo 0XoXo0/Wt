@@ -160,7 +160,7 @@ body {
 .backgroundC {
   background-color: var(--dark-color);
   /* لون خلفية الصفحة */
-  height: 2000px;
+  height: 1000px;
 
   html {
     font-size: 100%;
@@ -574,4 +574,5 @@ body {
       font-size: 70%;
     }
   }
-}
+
+  /*نهاية cv*/
