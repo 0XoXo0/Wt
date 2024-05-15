@@ -580,3 +580,10 @@ body {
 }
 
 /*نهاية cv*/
+/*بداية صفحة HOBBIES*/
+.backgroundC {
+  background-color: var(--dark-color);
+  /* لون خلفية الصفحة */
+  height: 1000px;
+
+  /*نهاية صفحة HOBBIES*/
