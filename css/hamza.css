@@ -585,5 +585,19 @@ body {
   background-color: var(--dark-color);
   /* لون خلفية الصفحة */
   height: 1000px;
+}
 
-  /*نهاية صفحة HOBBIES*/
+/*نهاية صفحة HOBBIES*/
+
+
+
+#footer_hamza {
+  background-color: rgba(223, 223, 223, 0.848)fff;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  top: 100%;
+}
