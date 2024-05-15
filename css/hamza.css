@@ -325,29 +325,28 @@ body {
     padding-left: calc(1.5rem + 10px);
   }
 
-  .title-icon+span {
-    font-size: 1.5rem;
-    transition: all 0.3s;
-  }
-
   .title-icon {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     margin-right: 1rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 50px;
+    /* تعديل حجم الرمز */
+    height: 50px;
+    /* تعديل حجم الرمز */
     background-color: var(--profile-theme);
     border-radius: 50%;
     transition: all 0.3s;
   }
 
-  .title-icon i {
-    color: white;
-    line-height: 1rem;
-    font-size: 1rem;
-    text-align: center;
+  .title-icon svg {
+    width: 100%;
+    /* ضمان استخدام عرض الكامل للرمز */
+    height: auto;
+    /* ضمان تناسب الارتفاع تلقائيًا */
+    fill: white;
+    /* لون الرمز */
   }
 
   .detail-section:hover .title-icon {
@@ -358,6 +357,9 @@ body {
   .detail-section:hover .title-icon+span {
     letter-spacing: 1.5px;
   }
+
+
+
 
   /* time line block in education section */
   .timeline-block {
@@ -575,4 +577,6 @@ body {
     }
   }
 
-  /*نهاية cv*/
+}
+
+/*نهاية cv*/
