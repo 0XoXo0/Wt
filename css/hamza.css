@@ -87,75 +87,67 @@ body {
   padding: 20px;
 }
 
-.textbox {
-  background-color: #f0f0f0;
-  /* لون خلفية الصندوق */
-  padding: 20px;
-  border-radius: 10px;
-  /* شكل حواف الصندوق */
-}
 
-.textbox h2 {
-  color: #333;
-  /* لون عنوان الصندوق */
-  font-size: 24px;
-  /* حجم خط عنوان الصندوق */
-}
 
-.textbox p {
-  color: #666;
-  /* لون نص الصندوق */
-  font-size: 16px;
-  /* حجم خط نص الصندوق */
-}
+
 
 /* نهاية تخصيص الصفحة الرئيسية */
-
 /* بداية تخصيص قسم "myTown" */
 .backgroundC {
   background-color: var(--dark-color);
-  /* لون خلفية الصفحة */
-  height: 2000px;
-  /* ارتفاع القسم */
-}
 
-.carousel-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* لون خلفية النص في شريط الصور */
-  color: white;
-  /* لون النص في شريط الصور */
-  padding: 10px;
 }
 
 .city-info-container {
   background-color: #f8f9fa;
-  /* لون خلفية عنصر "مدينتي" */
   border: 1px solid #ccc;
-  /* لون حدود عنصر "مدينتي" */
-  border-radius: 10px;
-  /* شكل حواف عنصر "مدينتي" */
-  margin: 20px auto;
-  /* توسيط عنصر "مدينتي" بين الحواف */
+  border-radius: 100px;
+  margin: 10px auto;
   max-width: 800px;
-  /* أقصى عرض لعنصر "مدينتي" */
+  padding: 20px;
+  overflow-y: auto;
 }
 
 
-.city-info h2 {
-  color: #333;
-  /* لون عنوان عنصر "مدينتي" */
+
+/* تفصيل خلفيات الفقرات */
+.paragraph-box {
+  background-color: white;
+  margin-bottom: 150px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
-.city-info p {
-  color: #666;
-  /* لون نص عنصر "مدينتي" */
+
+
+
+
+
+
+#ribat-of-sousse {
+  background-color: rgba(255, 0, 0, 0.2);
+  /* خلفية خفيفة حمراء */
+}
+
+#sousse-archaeological-museum {
+  background-color: rgba(0, 255, 0, 0.2);
+  /* خلفية خفيفة خضراء */
+}
+
+#great-mosque-of-sousse {
+  background-color: rgba(0, 0, 255, 0.2);
+  /* خلفية خفيفة زرقاء */
+}
+
+#port-el-kantaoui {
+  background-color: rgba(255, 255, 0, 0.2);
+  /* خلفية خفيفة صفراء */
 }
 
 /* نهاية تخصيص قسم "myTown" */
+
 /*بداية صفحةCV*/
 .backgroundC {
   background-color: var(--dark-color);
